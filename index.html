@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+
+    </nav> 
+<header>
+
+    <div class="item">
+          
+            <p class="name1 itm"> Ericka & Alejo<br>
+            <span class="caption itm"> Santorini April 27 , 2016 </span></p>
+            <a class="itm"  href="gallery1.html"> <img class= "icon" src="/assets/img/icon1.png"></a>
+            </div>
+    <ul class = "slideshow">
+        <li> -</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</header>
+    
+<!-- //1500px x 1500px -->
+
+</body>
+<style>
+  
+body {
+    background-color: black;
+}
+    /* nav {
+        height: 7vh;
+        background: rgb(61, 61, 61);
+    } */
+
+/* header {
+    height: 93vh;
+
+    background: url(assets/img/1.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    display : grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+   } */
+   .caption{
+     font-size: 7vh;
+     margin: 0;
+     text-align: center;
+
+   }
+   .icon {
+     display : grid;
+     align-content:initial;
+     justify-self: end;
+     height:200px;
+   }
+
+.item {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1;
+    justify-self: center;
+    align-content: center;
+    font-size: 13vh;
+    font-family: 'Lobster', cursive; 
+    color:white;
+    z-index: 1;
+    position: relative;
+   
+    
+    }
+.itm {
+   grid-column:1;
+    justify-self: center;
+    height:200px;
+    }
+ /* .item {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+} */
+.slideshow { 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.slideshow li { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 50s linear infinite; 
+}
+.slideshow li:nth-child(1) { 
+  background-image: url("assets/img/1.jpg");
+   
+}
+.slideshow li:nth-child(2) { 
+background-image: url("assets/img/4.jpg");
+  animation-delay: 10s; 
+}
+.slideshow li:nth-child(3) { 
+ background-image: url("assets/img/3.jpg");
+  animation-delay: 20s; 
+}
+.slideshow li:nth-child(4) { 
+    background-image: url("assets/img/4.jpg"); 
+  animation-delay: 30s; 
+}
+.slideshow li:nth-child(5) { 
+    background-image: url("assets/img/5.jpg");
+  animation-delay: 40s; 
+}
+@keyframes imageAnimation { 
+  0% { 
+    opacity: 0; 
+    animation-timing-function: ease-in;
+  }
+  10% {
+    opacity: 0.7;
+    animation-timing-function: ease-out;
+  }
+  20% {
+    opacity: 0.7;
+  }
+  30% {
+    opacity: 0;
+  }
+}
+
+
+
+</style>
+</html>
