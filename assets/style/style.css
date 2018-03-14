@@ -42,7 +42,7 @@ html {
     list-style: none;
   }
   .img-main{
-    background: url(/assets/img/1.jpg) no-repeat;
+    background: url(/assets/img/1.JPG) no-repeat;
     background-size:cover;
     filter: grayscale(50%);
     height: 70vh;
