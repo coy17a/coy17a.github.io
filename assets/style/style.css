@@ -42,7 +42,7 @@ html {
     list-style: none;
   }
   .img-main{
-    background: url("/assets/img/1.jpg") no-repeat;
+    background: url(/assets/img/1.jpg) no-repeat;
     background-size:cover;
     filter: grayscale(50%);
     height: 70vh;
@@ -76,14 +76,14 @@ html {
     padding:0;
   }
   .text-left {
-      background:url("/assets/img/text_left.png") no-repeat left;
+      background:url(/assets/img/text_left.png) no-repeat left;
      
       font-size: 100%;
       padding-left:120px
   }
 
 .text-right {
-    background:url("/assets/img/text_right.png") no-repeat right;
+    background:url(/assets/img/text_right.png) no-repeat right;
   
     padding-right: 120px;
 }
@@ -386,7 +386,7 @@ padding-top:50px;
   background-size: cover;
 }
 .g13 {
-  background: url(/assets/img/img/s6.jpg)center;
+  background: url(/assets/img/img/s6.jpg) center;
   background-size: cover;
   transform: rotate(-90deg);
 }
@@ -395,17 +395,17 @@ padding-top:50px;
   background-size: cover;
 }
 .g15 {
-  background: url(/assets/img/img/t3.jpg)center;
+  background: url(/assets/img/img/t3.jpg) center;
   background-size: cover;
   transform: rotate(90deg);
 }
 .g16 {
-  background: url(/assets/img/img/s4.jpg)center;
+  background: url(/assets/img/img/s4.jpg)  center;
   background-size: cover;
   transform: rotate(-90deg);
 }
 .g17 {
-  background: url(/assets/img/img/t5.jpg)center;
+  background: url(/assets/img/img/t5.jpg) center;
   background-size: cover;
   transform: rotate(-90deg);
 }
@@ -414,19 +414,19 @@ padding-top:50px;
   background-size: cover;
 }
 .g19 {
-  background: url(/assets/img/img/s3.jpg)center;
+  background: url(/assets/img/img/s3.jpg) center;
   background-size: cover;
 }
 .g20 {
-  background: url(/assets/img/img/t4.jpg)center;
+  background: url(/assets/img/img/t4.jpg) center;
   background-size: cover;
 }
 .g21 {
-  background: url(/assets/img/img/t7.jpg)center;
+  background: url(/assets/img/img/t7.jpg) center;
   background-size: cover;
 }
 .g22 {
-  background: url(/assets/img/img/s2.jpg)center;
+  background: url(/assets/img/img/s2.jpg) center;
   background-size: cover;
 }
 
