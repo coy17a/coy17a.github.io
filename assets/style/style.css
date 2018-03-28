@@ -41,6 +41,9 @@ html {
     color: black;
     list-style: none;
   }
+  audio {
+    display: none;
+  }
   .img-main{
     background: url(/assets/img/1.JPG) no-repeat;
     background-size:cover;
@@ -52,6 +55,16 @@ html {
     grid-template-rows: 100px 120px 60px 100px;
     text-align: center;
     min-height: 320px;
+  }
+  .title2{
+    font-size: 120px;
+    font-family: 'Clicker Script', cursive;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+ 
+    color: white;
   }
   .title {
     font-size: 120px;
@@ -70,6 +83,18 @@ html {
       padding:0;
   }
   .icon-title {
+    text-align: center;
+    align-self: end;
+    margin:0;
+    padding:0;
+  }
+  .fotos-title {
+    padding: 60px;
+    background: rgb(68, 67, 67);
+  }
+  .icon-title2 {
+    
+    color: white;
     text-align: center;
     align-self: end;
     margin:0;
@@ -210,7 +235,7 @@ html {
     
     }
   .s1 {
-    background: url(/assets/img/1.jpg) center;
+    background: url(/assets/img/8.jpg) center;
     background-size: cover;
    
   }
@@ -219,27 +244,52 @@ html {
     background-size: cover;
   }
   .s3 {
-    background: url(/assets/img/3.jpg)center;
+    background: url(/assets/img/9.jpg)center;
     background-size: cover;
     
   }
   .s4 {
-    background: url(/assets/img/4.jpg)center;
+    background: url(/assets/img/10.jpg)center;
     background-size: cover;
   }
+  .s5 {
+    background: url(/assets/img/11.jpg)center;
+    background-size: cover;
+  }
+  .s6 {
+    background: url(/assets/img/13.jpg)center;
+    background-size: cover;
+  }
+  .s7 {
+    background: url(/assets/img/14.jpg)center;
+    background-size: cover;
+  }
+  .s8 {
+    background: url(/assets/img/15.jpg)center;
+    background-size: cover;
+  }
+  .s9 {
+    background: url(/assets/img/15.jpg)center;
+    background-size: cover;
+  }
+  .s10 {
+    background: url(/assets/img/12.jpg)center;
+    background-size: cover;
+  }
+  
  
 
   
   
   .panels {
-    min-height:70vh;
+    min-height:80vh;
     overflow: hidden;
     display: flex;
   }
   .panel {
     background: whitesmoke;
     box-shadow:inset 0 0 0 5px rgba(255,255,255,0.1);
-    color:goldenrod;
+    color:rgb(211, 206, 206);
     text-align: center;
     align-items:center;
     /* Safari transitionend event.propertyName === flex */
@@ -291,7 +341,7 @@ html {
     font-size:40px;
   }
   .gallery-menu {
-    background-color:black;
+    background-color:whitesmoke;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     height: 50px;
@@ -299,10 +349,10 @@ html {
     font-size: 30px;
     align-content: center;
     justify-items: center;
-    color:white;
+    color:black;
   }
   .gallery-menu a {
-    color:white;
+    color:black;
     margin-left: 20px;
   }
   .gallery-menu li {
@@ -311,12 +361,10 @@ html {
 
 .galleries {
 
-padding:180px;
-padding-top:50px;
+
 
 }
 .gallery-container {
- max-width: 100%;
 
 
   
@@ -324,7 +372,7 @@ padding-top:50px;
 .gallery-img {
   height: 250px;
   width: 250px;
-  margin:20px;
+  margin-bottom:10px;
   border-radius: 5%;
   filter: grayscale(30%);
   transition: all 1s ease;
@@ -435,7 +483,7 @@ padding-top:50px;
   height:600px;
   margin-top:10px;
   color: white;
-  background: url(/assets/img/7.jpg) no-repeat center;
+  background: url(/assets/img/12.jpg) no-repeat ;
   background-size:cover;
   max-width: none;
   display: grid;
@@ -444,11 +492,12 @@ padding-top:50px;
  }
   .quote {
     letter-spacing:5px;;
-    font: 50px/60px 'Great Vibes', Arial,sans-serif;
-    color:white;    
+    font: 50px/60px 'Tangerine', Arial,sans-serif;
+    color:rgb(219, 209, 209);    
     text-align: justify;
     margin:150px;
-    margin-top:100px;
+    margin-top:50px;
+    font-weight: 100;
   
   
   }
