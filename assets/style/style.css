@@ -45,7 +45,7 @@ html {
     display: none;
   }
   .img-main{
-    background: url(assets/img/1.jpg) no-repeat;
+    background: url(/assets/img/1.jpg) no-repeat;
     background-size:cover;
     filter: grayscale(50%);
     height: 70vh;
@@ -64,7 +64,7 @@ html {
     margin: 0;
     padding: 0;
  
-    color: white;
+    color:black;
   }
   .title {
     font-size: 120px;
@@ -240,7 +240,7 @@ html {
    
   }
   .s2 {
-    background: url(/assets/img/2.jpg) center;
+    background: url(/assets/img/20.jpg) center;
     background-size: cover;
   }
   .s3 {
@@ -273,7 +273,7 @@ html {
     background-size: cover;
   } */
   .s10 {
-    background: url(/assets/img/12.jpg)center;
+    background: url(/assets/img/19.jpg)center;
     background-size: cover;
   }
   
@@ -475,6 +475,38 @@ html {
 }
 .g22 {
   background: url(/assets/img/img/s2.jpg) center;
+  background-size: cover;
+}
+.g23 {
+  background: url(/assets/img/2.jpg) center;
+  background-size: cover;
+}
+.g24 {
+  background: url(/assets/img/3.jpg) center;
+  background-size: cover;
+}
+.g25 {
+  background: url(/assets/img/6.jpg) center;
+  background-size: cover;
+}
+.g26 {
+  background: url(/assets/img/5.jpg) center;
+  background-size: cover;
+}
+.g27 {
+  background: url(/assets/img/4.jpg) center;
+  background-size: cover;
+}
+.g28 {
+  background: url(/assets/img/21.jpg) center;
+  background-size: cover;
+}
+.g29 {
+  background: url(/assets/img/22.jpg) center;
+  background-size: cover;
+}
+.g30 {
+  background: url(/assets/img/23.jpg) center;
   background-size: cover;
 }
 
