@@ -23,7 +23,7 @@ html {
   }
 
   .header {
-    background-color:white;
+    background-color:rgb(68, 67, 67);
     display:grid;
     grid-template-columns: 1fr repeat(3, 150px);
     height: 50px;
@@ -34,7 +34,7 @@ html {
   }
 
   .header a {
-    color: black;
+    color: whitesmoke;
     justify-self: left;
   }
   .header li {
@@ -56,15 +56,14 @@ html {
     text-align: center;
     min-height: 320px;
   }
-  .title2{
+  .title2 {
     font-size: 120px;
     font-family: 'Clicker Script', cursive;
     text-align: center;
     font-weight: 400;
     margin: 0;
     padding: 0;
- 
-    color:black;
+    color:whitesmoke;
   }
   .title {
     font-size: 120px;
@@ -91,6 +90,7 @@ html {
   .fotos-title {
     padding: 60px;
     background: rgb(68, 67, 67);
+   
   }
   .icon-title2 {
     
@@ -189,6 +189,9 @@ html {
     grid-column:2/4;
     font-size: 60px;
     margin:30px;
+    
+
+
    }
    .story h3{
      font-size: 22px;
@@ -340,6 +343,7 @@ html {
     flex: 5;
     font-size:40px;
   }
+ 
   .gallery-menu {
     background-color:whitesmoke;
     display:grid;
@@ -354,6 +358,8 @@ html {
   .gallery-menu a {
     color:black;
     margin-left: 20px;
+    text-decoration: underline;
+    
   }
   .gallery-menu li {
     list-style: none;
